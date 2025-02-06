@@ -1,9 +1,9 @@
 import { createApp, h, provide } from 'vue';
 import { DefaultApolloClient } from '@vue/apollo-composable';
 import App from './App.vue';
-import client from './apolloClient';
+import client from './apolloClient'; // Ensure this is correctly pointing to your ApolloClient instance
 import './assets/main.css';
-import router from './router';
+import router from './router'; // Ensure this is correctly set up
 import VueApexCharts from 'vue3-apexcharts';
 import PrimeVue from 'primevue/config';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -15,6 +15,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 library.add(faBook, faClock, faChartLine);
+
 const app = createApp({
   setup() {
     provide(DefaultApolloClient, client);

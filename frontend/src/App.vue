@@ -36,16 +36,6 @@
               <span v-if="expanded" class="ml-3">Production Records</span>
             </router-link>
           </li>
-          <li>
-            <router-link
-              to="/real-time-updates"
-              class="flex items-center p-3 hover:bg-gray-700 rounded transition-colors"
-            >
-              <!-- Replace with your icon SVG -->
-              <font-awesome-icon icon="clock" />
-              <span v-if="expanded" class="ml-3">Real-Time Updates</span>
-            </router-link>
-          </li>
         </ul>
       </nav>
 
@@ -120,5 +110,3 @@ function toggleMobileSidebar() {
   // Implement mobile-specific sidebar toggling if needed
 }
 </script>
-
-<!-- Tailwind CSS is assumed to be configured in your project -->

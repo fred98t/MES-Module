@@ -17,6 +17,7 @@
     "@tailwindcss/vite": "^4.0.3",
     "@vue/apollo-composable": "^4.2.1",
     "apexcharts": "^4.4.0",
+    "date-fns": "^4.1.0",
     "graphql": "^16.10.0",
     "graphql-tag": "^2.12.6",
     "primevue": "^4.2.5",
