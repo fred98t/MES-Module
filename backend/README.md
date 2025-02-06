@@ -18,6 +18,9 @@ DB_PORT=
 
 DB_CONNECTION_STRING=
 
+## Run .sql file to create database table
+src > config > .sql (query to create tables and dummy data)
+
 ## Run
 
 To start backend server,run:
